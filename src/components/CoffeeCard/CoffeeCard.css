@@ -1,0 +1,41 @@
+.img{
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 25vh;
+    width: 18vw;
+    border-radius: 20px;
+}
+
+.card{
+    height: 35vh;
+    width: 18vw;
+}
+.card-content{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card-content h2{
+    padding: 2vh 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 0.875rem;
+    background-color: #BEE3CC;
+    padding: 0.8vh;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    border-radius: 6px;
+}
+
+h2{
+    font-size: 0.87rem;
+    display: flex;
+    align-items: center;
+}
