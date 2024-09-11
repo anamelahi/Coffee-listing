@@ -46,7 +46,6 @@ const Page1 = () => {
         <p>Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.</p>
         <div className='filter'>
             <Buttons btntext="All Products" onClick={()=> handleSort('popularity')}/>
-            <Buttons btntext="Available Now" onClick={()=> handleSort('availability')}/>
             <Buttons btntext="Price" onClick={()=> handleSort('priceLowToHigh') }/>
             <Buttons btntext="Ratings" onClick={()=> handleSort('ratingsHighToLow')}/>
 
